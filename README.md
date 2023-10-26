@@ -1,6 +1,6 @@
 # eslint-plugin-translate-breaks-ref-patch
 
-Hint and auto fix for conditional literals in jsx.
+Hint and provide suggestion for conditional literals in jsx.
 
 - Why we want to fix conditional literals in jsx?
 
