@@ -6,6 +6,7 @@ Hint and provide suggestion for conditional literals in jsx.
 
   > React - a very very popular web development framework - breaks when Google Translate runs across a page.
 
+  - We suffered from `Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.` screaming all the time.
   - [discussions](https://github.com/facebook/react/issues/11538)
   - [chromium bug report](https://bugs.chromium.org/p/chromium/issues/detail?id=872770)
 
@@ -51,8 +52,8 @@ Then configure the rules you want to use under the rules section.
 
 💡 Manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-| Name                                                                           | Description                                                                                | 💡 |
-| :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :- |
-| [no-conditional-literals-in-jsx](docs/rules/no-conditional-literals-in-jsx.md) | Browser auto-translation will break if pieces of text nodes are be rendered conditionally. | 💡 |
+| Name                                                                           | Description                                                                                | 💡  |
+| :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :-- |
+| [no-conditional-literals-in-jsx](docs/rules/no-conditional-literals-in-jsx.md) | Browser auto-translation will break if pieces of text nodes are be rendered conditionally. | 💡  |
 
 <!-- end auto-generated rules list -->
