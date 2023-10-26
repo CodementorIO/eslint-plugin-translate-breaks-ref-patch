@@ -1,6 +1,6 @@
 # Browser auto-translation will break if pieces of text nodes are be rendered conditionally (`translate-breaks-ref-patch/no-conditional-literals-in-jsx`)
 
-🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
+💡 This rule is manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
 <!-- end auto-generated rule header -->
 

@@ -49,10 +49,10 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
-🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
+💡 Manually fixable by [editor suggestions](https://eslint.org/docs/developer-guide/working-with-rules#providing-suggestions).
 
-| Name                                                                           | Description                                                                                | 🔧 |
+| Name                                                                           | Description                                                                                | 💡 |
 | :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :- |
-| [no-conditional-literals-in-jsx](docs/rules/no-conditional-literals-in-jsx.md) | Browser auto-translation will break if pieces of text nodes are be rendered conditionally. | 🔧 |
+| [no-conditional-literals-in-jsx](docs/rules/no-conditional-literals-in-jsx.md) | Browser auto-translation will break if pieces of text nodes are be rendered conditionally. | 💡 |
 
 <!-- end auto-generated rules list -->

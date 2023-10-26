@@ -51,40 +51,33 @@ ruleTester.run("no-conditional-literals-in-jsx", rule, {
     {
       code: `<div>text {conditional && 'string'}</div>`,
       errors,
-      output: `<div>text {conditional && <span>string</span>}</div>`,
     },
     {
       code: `<div>text {conditional || 'string'}</div>`,
       errors,
-      output: `<div>text {conditional || <span>string</span>}</div>`,
     },
     {
       code: `<div>{conditional && 'string'} text</div>`,
       errors,
-      output: `<div>{conditional && <span>string</span>} text</div>`,
     },
     {
       code: `<div>{conditional || 'string'} text</div>`,
       errors,
-      output: `<div>{conditional || <span>string</span>} text</div>`,
     },
     {
       // More complicated logic
       code: `<div>text {(conditional1 && conditional2) || 'string'}</div>`,
       errors,
-      output: `<div>text {(conditional1 && conditional2) || <span>string</span>}</div>`,
     },
     {
       // This results in 2 text nodes with no JSX containers -- dangerous
       code: `<div>{property} {conditional && 'string'}</div>`,
       errors,
-      output: `<div>{property} {conditional && <span>string</span>}</div>`,
     },
     {
       // This results in 2 text nodes with no JSX containers -- dangerous
       code: `<div>{object.property} {conditional && 'string'}</div>`,
       errors,
-      output: `<div>{object.property} {conditional && <span>string</span>}</div>`,
     },
   ],
 });
