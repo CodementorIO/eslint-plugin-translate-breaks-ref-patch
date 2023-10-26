@@ -20,13 +20,15 @@
     "lint:js": "eslint .",
     "test": "mocha tests --recursive",
     "update:eslint-docs": "eslint-doc-generator",
-    "commit": "cz"
+    "commit": "cz",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
     "prettier": "^3.0.3",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
+    "auto-changelog": "^2.4.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.19.0",
     "eslint-doc-generator": "^1.0.0",
