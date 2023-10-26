@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-translate-breaks-ref-patch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hint and auto fix for conditional literals in jsx",
   "keywords": [
     "eslint",
